@@ -1,8 +1,8 @@
-'use strict';
+﻿'use strict';
 
-var AuthenticationRequest = require('./authentication-request'),
-    WebApiRequest = require('./webapi-request'),
-    HttpManager = require('./http-manager');
+//var AuthenticationRequest = require('./authentication-request'),
+//    WebApiRequest = require('./webapi-request'),
+//    HttpManager = require('./http-manager');
 
 function SpotifyWebApi(credentials) {
   this._credentials = credentials || {};
